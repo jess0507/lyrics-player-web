@@ -3,6 +3,3 @@ description: Seek Player 隱私權政策 Privacy Policy
 # baseurl 對應 project pages 的子路徑，使網址為
 # https://jess0507.github.io/seek-player-privacy-policy/privacy-policy
 baseurl: "/seek-player-privacy-policy"
-
-# 佈景主題（GitHub Pages 內建支援），提供排版樣式
-theme: jekyll-theme-cayman

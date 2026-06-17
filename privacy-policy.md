@@ -1,5 +1,4 @@
 ---
-layout: default
 title: 隱私權政策 Privacy Policy
 permalink: /
 ---
