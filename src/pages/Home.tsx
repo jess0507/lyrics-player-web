@@ -56,7 +56,8 @@ export default function Home() {
               <path d="M12 3a1 1 0 0 1 1 1v9.586l3.293-3.293a1 1 0 1 1 1.414 1.414l-5 5a1 1 0 0 1-1.414 0l-5-5a1 1 0 1 1 1.414-1.414L11 13.586V4a1 1 0 0 1 1-1z" />
               <path d="M5 19a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1z" />
             </svg>
-            Download APK {LATEST_VERSION}
+            Download APK
+            <span className="text-sm font-normal">{LATEST_VERSION}</span>
           </a>
           <a
             href={RELEASES_URL}
