@@ -1,6 +1,6 @@
 const APK_URL =
   'https://github.com/jess0507/Lyrics-Player/releases/latest/download/app-release.apk'
-const RELEASES_URL = 'https://github.com/jess0507/Lyrics-Player/releases'
+const LATEST_VERSION = 'v1.2.4'
 
 const features = [
   { emoji: '⭐', text: 'Ad-Free｜無廣告' },
@@ -57,14 +57,7 @@ export default function Home() {
             </svg>
             Download APK
           </a>
-          <a
-            href={RELEASES_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm text-gray-500 underline-offset-2 hover:text-gray-700 hover:underline"
-          >
-            所有版本 All releases
-          </a>
+          <span className="text-sm text-gray-500">{LATEST_VERSION}</span>
         </div>
       </div>
     </div>
